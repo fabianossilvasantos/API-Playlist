@@ -1,0 +1,85 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Ambiente virtual
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Django
+# =========================
+*.log
+local_settings.py
+
+# Banco SQLite
+db.sqlite3
+db.sqlite3-journal
+
+# Arquivos enviados pelos usuários
+media/
+
+# Arquivos gerados pelo collectstatic
+staticfiles/
+
+# =========================
+# Variáveis de ambiente
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# PyCharm / IntelliJ
+# =========================
+.idea/
+*.iml
+
+# =========================
+# Sistema operacional
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# =========================
+# Testes / cobertura
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# =========================
+# Build / distribuição
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Cache de ferramentas
+# =========================
+.mypy_cache/
+.ruff_cache/
